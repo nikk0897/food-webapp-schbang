@@ -1,0 +1,409 @@
+html,
+body {
+  padding: 0px;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+ 
+/*     home page   */
+
+.main-home {
+  min-height: 100vh;
+  background: linear-gradient(
+    to right,
+    #fff5ec 0%,
+    #fff5ec 75%,
+    red 75%,
+    red 100%
+  );
+  color: #2e266f;
+}
+.main-container {
+  font-weight: 700;
+}
+.location-banner {
+  position: absolute;
+  padding: 10px 10px;
+  box-shadow: 2px 1px 10px 1px rgb(0 0 0 / 30%);
+  min-width: 15%;
+  color: #fff;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 30px 30px 0px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  height: auto;
+}
+.location-banner-container {
+  position: relative;
+}
+#search-bar {
+  padding: 1rem;
+  border-radius: 0;
+  z-index: 1 !important;
+  position: relative;
+}
+.search-bar-container {
+  width: 70%;
+}
+#go-button {
+  border-radius: 25px 0 0;
+  color: white;
+  background-color: red;
+  position: absolute;
+  right: 0;
+  width: 73px;
+  margin: 9px 6px 0;
+  border-top-left-radius: 47px !important;
+  z-index: 2 !important;
+}
+#go-button:hover {
+  border-radius: 25px 0 0;
+  color: white;
+  background-color: red;
+  position: absolute;
+  right: 0px;
+  width: 73px;
+  margin: 9px 6px 0;
+  border-top-left-radius: 47px !important;
+  z-index: 1;
+}
+#link {
+  color: inherit;
+  margin: 0em 1em;
+}
+.user-text {
+  color: white;
+}
+.main-food-image-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.main-food-image-container .pngtree-lettuce-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pngtree-delicious-food {
+  width: 600px;
+  height: 600px;
+  z-index: 10;
+}
+.pngtree-lettuce {
+  margin-bottom: 375px;
+  margin-left: 108px;
+}
+.download-text {
+  margin-top: 150px;
+  padding: 30px;
+}
+.main-food-heading-container {
+  margin-top: 72px;
+}
+.main-food-heading {
+  opacity: 0.2;
+  font-size: 128px;
+  line-height: 128px;
+}
+.food-heading {
+  font-size: 48px;
+  line-height: 48px;
+  text-align: left;
+}
+.arrow-container {
+  display: flex;
+  justify-content: right;
+  color: white;
+}
+.arrow {
+  padding-top: 8px;
+}
+
+
+/*    service page    */
+
+.main-service {
+  min-height: 100vh;
+  background: linear-gradient(
+    to right,
+    #fff5ec 0%,
+    #fff5ec 85%,
+    white 85%,
+    white 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+.bg-dark-pink {
+  background-color: #ffedde;
+}
+.service-image {
+  margin: 1em;
+}
+.service-heading-container {
+  padding-top: 30px;
+}
+.service-heading {
+  color: #2e266f;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+}
+.service-main-text {
+  opacity: 0.8;
+  padding: 2em;
+  padding-right: 4em !important;
+}
+.service-text1 {
+  font-weight: 700;
+  color: #2e266f;
+  line-height: 25px;
+  font-size: 20px;
+  margin: 15px;
+}
+.service-text2 {
+  opacity: 0.8;
+}
+.scooter-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scooter-image {
+  padding: 10px;
+}
+
+.indicator1 {
+  position: absolute;
+  top: 0;
+  margin-top: -25px;
+  right: 0;
+}
+
+/*  download page   */
+
+.main-download {
+  min-height: 100vh;
+  background-color: #ffedde;
+  display: flex;
+  align-items: center;
+}
+
+.download-heading {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #2e266f;
+}
+.download-text-container {
+  margin-top: 30px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download-text {
+  opacity: 0.8;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.download-image-main-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-image-main-container .download-image-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.download-outer-image {
+  margin-left: -5em;
+  margin-top: 4em;
+}
+
+.googleplay-image {
+  margin-left: -6px;
+}
+.padding {
+  padding-top: 20px;
+  position: relative;
+}
+.pngtree {
+  margin-right: 20em;
+  margin-bottom: -10em;
+}
+
+@media (min-width: 1200px) {
+  .service-main-text {
+    padding-right: 10em !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .pngtree-delicious-food {
+    width: 480px;
+    height: 480px;
+  }
+  .pngtree-lettuce {
+    margin-bottom: 210px;
+  }
+}
+@media (max-width: 992px) {
+  .service-heading-container {
+    padding-top: 30px;
+  }
+  .pngtree {
+    display: none;
+  }
+  .location-banner {
+    bottom: 0;
+    min-width: 18%;
+  }
+
+  .main-food-image-container {
+    margin-top: 100px !important;
+  }
+  /* .pngtree-lettuce {
+    margin-bottom: 280px;
+  } */
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .indicator1 {
+    width: 151px;
+  }
+  .indicator2 {
+    width: 180px;
+  }
+}
+/* @media (min-width: 420px) and (max-width: 992px) {
+  .search-bar-container {
+    width: 70%;
+  }
+} */
+@media (min-width: 768px) {
+  .indicator1 {
+    position: relative;
+    left: 0;
+    margin-top: 0;
+    margin-left: -42px;
+  }
+  .indicator2 {
+    position: absolute;
+    right: 0;
+    margin-right: -45px;
+  }
+  .main-service {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .arrow {
+    height: 50px;
+    width: 50px;
+    padding: 5px 0px;
+  }
+  .main-service {
+    text-align: end;
+    padding: 0 28px;
+    font-size: 18px;
+  }
+  .service-image {
+    height: 120px;
+    width: 120px;
+  }
+  .service-image-container {
+    width: 50%;
+  }
+  .service-heading {
+    text-align: center;
+  }
+  .service-main-text {
+    text-align: center;
+    padding-right: 0px !important;
+  }
+  .scooter-section {
+    margin: 25px 0 !important;
+    padding: 0;
+  }
+  .meeting-container {
+    margin: 3em 0;
+  }
+  .dish-container {
+    display: grid;
+    direction: rtl;
+  }
+  .download-heading {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .padding {
+    padding-top: 0px;
+  }
+  .download-inner-image {
+    height: 72%;
+    margin-right: 17px;
+    margin-left: 4%;
+  }
+  .download-main-text {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .pngtree-lettuce {
+    margin-bottom: 240px;
+  }
+  .location-banner-container {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 420px) {
+  .pngtree-delicious-food {
+    width: 280px !important;
+    height: 280px !important;
+  }
+  .pngtree-lettuce {
+    width: 226px;
+    height: 240px;
+    margin-bottom: 167px;
+    margin-left: 43px;
+  }
+  .main-food-heading {
+    opacity: 1;
+    font-size: 68px;
+    text-align: right;
+    line-height: 68px;
+  }
+  .food-heading {
+    font-size: 28px;
+    line-height: 28px;
+    text-align: right;
+  }
+  .search-bar-container {
+    width: 100%;
+    text-align: right;
+  }
+  .download-text-container {
+    padding: 15px;
+  }
+}
